@@ -18,4 +18,3 @@ EXPOSE 5100
 
 # Command to run the Flask application using gunicorn for production
 CMD ["gunicorn", "--bind", "0.0.0.0:5100", "app:app", "--workers=4"]
-
